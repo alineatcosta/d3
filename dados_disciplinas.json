@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {"id": "Algebra Linear", "tipo": 1},
+    {"id": "Algebra Vetorial", "tipo": 1},
+    {"id": "P1", "tipo": 1},
+    {"id": "P2", "tipo": 2},
+    {"id": "Calculo", "tipo": 1},
+    {"id": "LP2", "tipo": 2}
+  ],
+  "links": [
+    {"source": "Algebra Linear", "target": "Algebra Vetorial"},
+    {"source": "Algebra Linear", "target": "Calculo"},
+    {"source": "P1", "target": "LP2"},
+    {"source": "P1", "target": "P2"}
+  ]
+}
